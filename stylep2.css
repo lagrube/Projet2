@@ -55,6 +55,7 @@ nav p
 
 /*Header*/
 
+
 #top_header
 {
 	display: flex;
@@ -62,7 +63,7 @@ nav p
 	justify-content: space-between;
 }
 
-#titre_principal img
+#top_header img
 {
 	width: 80px;
 	height: 40px;
@@ -90,6 +91,7 @@ nav p
 #recherche p
 {
 	display: flex;
+	align-items: center;
 }
 
 input
@@ -116,12 +118,24 @@ label
 	order: 2;
 }
 
+.fa-search
+{
+	order: 3;
+	display: none;
+}
+
 .fa-map-marker-alt
 {
 	border: 1px solid #F2F2F2;
 	padding: 11.5px;
 	border-radius: 10px 0px 0px 10px;
 	background-color: #F2F2F2;
+}
+
+#info
+{
+	display: flex;
+	align-items: center;
 }
 
 .fa-info
@@ -132,6 +146,7 @@ label
 	margin-right: 10px;
 	color: #0065FC;
 }
+
 /*Naviguation*/
 
 #inscription
@@ -380,11 +395,18 @@ aside h1
 
 .fa-chart-line
 {
-	margin-left: 20%;
+	float: right;
+	padding-right: 5%;
 }
 
 
 /*Article2*/
+
+#Activite
+{
+	width: 100%;
+	height: 450px;
+}
 
 #bloc-left, #bloc-right
 {
@@ -393,16 +415,17 @@ aside h1
 	width: 48.5%;
 }
 
-#bloc7
+#gros_bloc
 {
 	display: flex;
 	justify-content: space-between;
+	height: 90%;
 }
 
 .bloc3
 {
 	width: 48%;
-	height: 400px;
+	height: auto;
 	border-radius: 20px;
 	box-shadow: 3px 3px 10px silver;
 }
@@ -410,22 +433,21 @@ aside h1
 .bloc3 img
 {
 	width: 100%;
-	height: 350px;
+	height: 90%;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 1px;
 }
 
-.bloc4
+.petit_bloc
 {
 	width: 48%;
-	height: 400px;
 	display: flex;
 	flex-direction: column;
 }
 
 .bloc5
 {
-	flex: 1.8;
+	height: 59%;
 	box-shadow: 3px 3px 10px silver;
 	border-radius: 20px;
 }
@@ -433,13 +455,13 @@ aside h1
 .bloc5 img
 {
 	width: 100%;
-	height: 180px;
+	height: 83%;
 	border-radius: 20px 20px 0px 0px;
 }
 
 .bloc6
 {
-	flex: 1.2;
+	height: 33%;
 	margin-top: 30px;
 	box-shadow: 3px 3px 10px silver;
 	border-radius: 20px;
@@ -448,14 +470,14 @@ aside h1
 .bloc6 img
 {
 	width: 100%;
-	height: 96px;
+	height: 71%;
 	border-radius: 20px 20px 0px 0px;
 }
 
 
 .bloc7
 {
-	flex: 1.2;
+	height: 60%;
 	margin-bottom: 30px;
 	border-radius: 20px;
 	box-shadow: 3px 3px 10px silver;
@@ -464,13 +486,13 @@ aside h1
 .bloc7 img 
 {
 	width: 100%;
-	height: 96px;
+	height: 83%;
 	border-radius: 20px 20px 0px 0px;
 }
 
 .bloc8
  {
-	 flex: 1.8;
+	 height: 33%;
 	 border-radius: 20px;
 	 box-shadow: 3px 3px 10px silver;
  }
@@ -479,7 +501,7 @@ aside h1
  
 {
 	width: 100%;
-	height: 180px;
+	height: 71%;
 	border-radius: 20px 20px 0px 0px;
 }
 
@@ -507,7 +529,7 @@ aside h1
 	 background-color: #F2F2F2;
  }
 
- @media screen and (max-width: 1200px)
+ @media screen and (max-width: 1200px) and (min-width: 451px)
  {
 	body
 	{
@@ -517,6 +539,8 @@ aside h1
 		margin-right: 2%;
 		min-width: 740px;
 	}
+
+	/*Header*/
 
 	li, a
 	{
@@ -579,6 +603,8 @@ aside h1
 		padding: 7.5%;
 	}
 
+	/*Section*/
+
 	#Bloc1
 	{
 		flex-direction: column;
@@ -601,6 +627,8 @@ aside h1
 		width: auto;
 		flex-direction: row;
 	}
+
+	/*Aside*/
 	
 	aside
 	{
@@ -644,26 +672,11 @@ aside h1
 		padding-left: 5%;
 	}
 
-	#bloc7
-	{
-		flex-direction: column;
-	}
+	/*Article2*/
 
-	#bloc-left, #bloc-right
+	#Activite
 	{
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#bloc-left
-	{
-		margin-bottom: 1%;
-	}
-
-	#bloc-right
-	{
-		margin-top: 1%;
+		height: 300px;
 	}
 
 	#Activite h1
@@ -671,10 +684,333 @@ aside h1
 		margin-left: 5%;
 	}
 
+	#Activite h2 
+	{
+		margin-top: 0px;
+	}
+
+	.bloc3 img
+	{
+		height: 86%;
+	}
+
+	.bloc5
+	{
+		height: 47%;
+	}
+
+	.bloc5 img 
+	{
+		height: 69%;
+	}
+
+	.bloc6
+	{
+		height: 47%;
+		margin-top: 10%;
+	}
+
+	.bloc6 img 
+	{
+		height: 69%;
+	}
+
+	.bloc7
+	{
+		height: 47%;
+		margin-bottom: 10%;
+	}
+
+	.bloc7 img 
+	{
+		height: 69%;
+	}
+
+	.bloc8
+	{
+		height: 47%;
+	}
+
+	.bloc8 img 
+	{
+		height: 69%;
+	}
+
+
+	/*Footer*/
+
 	footer
 	{
 		justify-content: space-around;
 		padding: 0%;
+	}
+
+ }
+
+ @media screen and (max-width: 450px)
+ {
+	body
+	{
+		width: auto;
+		height: auto;
+		margin-left: 1%;
+		margin-right: 1%;
+		min-width: 320px;
+	}
+
+	/*Header*/
+
+	#top_header
+	{
+		flex-direction: column;
+	}
+
+	#inscription
+	{
+		display: block;
+		position: absolute;
+		top: 45px;
+		right: 0px;
+	}
+
+	#top_header nav li a:hover
+	{
+		border-top: none;
+		padding-bottom: 2px;
+		border-bottom: 2px solid #0065FC;
+	}
+
+	#top_header nav ul li a 
+	{
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	#top_header nav ul 
+	{
+		width: 100%;
+		padding-left: 0px;
+		justify-content: space-around;
+		border-bottom: 2px solid #F2F2F2;
+		padding-bottom: 2px;
+	}
+
+	#top_header h1
+	{
+		white-space: normal;
+	}
+
+	h1 
+	{
+		white-space: normal;
+	}
+
+	label
+	{
+		display: none;
+	}
+
+	.fa-search
+	{
+		display: initial;
+		color: white;
+		padding: 6%;
+		background-color: #0065FC;
+		border-radius: 15px 15px 15px 15px;
+		position: relative;
+		right: 10px;
+	}
+	
+	#bot_header nav 
+	{
+		flex-direction: column;
+	}
+
+	#bot_header ul 
+	{
+		flex-wrap: wrap;
+		padding-left: 5%;
+	}
+
+	#bot_header li 
+	{
+		margin-bottom: 3%;
+		font-size: 0.9em;
+	}
+
+	/*Section*/
+
+	#Hebergement h1
+	{
+		padding-left: 15px;
+		font-size: 1.3em;
+	}
+
+	#Populaire h1
+	{
+		padding-left: 15px;
+		font-size: 1.3em;
+	}
+
+	#Bloc1
+	{
+		flex-direction: column;
+	}
+
+	#Bloc1 article
+	{
+		order: 2;
+		background-color: white;
+	}
+
+	aside
+	{
+		border-radius: 0;
+	}
+
+	#Bloc1 aside
+	{
+		order: 1;
+		width: 98%;
+	}
+
+	.hotel2 img 
+	{
+		width: 30%;
+	}
+
+	#Hebergement
+	{
+		width: 98%;
+		height: auto;
+		background-color: white;
+	}
+
+	.hotel
+	{
+		box-shadow: 3px 3px 10px #F2F2F2;
+		width: 90%;
+	}
+
+	/*Section2*/
+
+	Article
+	{
+		height: auto;
+	}
+
+	#Activite
+	{
+		width: 98%;
+		height: 1400px;
+	}
+
+	#Activite h1
+	{
+		padding-left: 15px;
+		font-size: 1.3em;
+	}
+
+	#gros_bloc
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 95%;
+	}
+
+	#bloc-left
+	{
+		flex-direction: column;
+		width: 90%;
+		height: 50%;
+		margin-bottom: 30px;
+		
+	}
+
+	#bloc-right
+	{
+		flex-direction: column;
+		width: 90%;
+		height: 50%;
+	}
+
+	.bloc3
+	{
+		width: 100%;
+		height: 200px;
+	}
+
+	.bloc3 img 
+	{
+		height: 80%;
+	}
+
+	.petit_bloc
+	{
+		width: 100%;
+		height: 68%;
+	}
+
+	.bloc5
+	{
+		width: 100%;
+		height: 45%;
+		margin-top: 20px;
+	}
+
+	.bloc5 img 
+	{
+		height: 80%;
+	}
+
+	.bloc6
+	{
+		width: 100%;
+		height: 45%;
+	}
+
+	.bloc6 img 
+	{
+		width: 100%;
+		height: 80%;
+	}
+
+	.bloc7
+	{
+		width: 100%;
+		height: 45%;
+		margin-top: 18px;
+	}
+
+	.bloc7 img 
+	{
+		height: 80%;
+	}
+
+	.bloc8
+	{
+		width: 100%;
+		height: 45%;
+	}
+
+	.bloc8 img 
+	{
+		width: 100%;
+		height: 80%;
+	}
+
+	/*Footer*/
+
+	footer
+	{
+		flex-direction: column;
+		padding-right: 0;
+		padding-left: 8%;
+	}
+
+	footer h1 
+	{
+		font-size: 1.3em;
 	}
 
  }

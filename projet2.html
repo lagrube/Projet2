@@ -10,21 +10,22 @@
 
     <body>
     	<header>
-    		<div id="top_header">    		
-    			<div id="titre_principal">
-    				<img src="Image/Reservia@3x.png" alt="logo de Réservia">
-    			    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-    			    <p>En plein centre ville ou en pleine nature</p>
-    		    </div>
-				 
-    		    <nav>
-    		    	<ul>
+    		<div id="top_header">
+				<img src="Image/Reservia@3x.png" alt="logo de Réservia"> 
+				<nav>
+					<ul>
     		    		<li><a href="#Hebergement">Hébergements </a></li>
     		    		<li><a href="#Activite">Activités</a></li>
 					</ul>
 					<a href="#"><span id="inscription">S'inscrire</span></a>
-    		    </nav>
+				</nav>  
+			</div>
+				  		
+    		<div id="titre_principal">
+    				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    			    <p>En plein centre ville ou en pleine nature</p>
     		</div>
+			
     		
     		<div id="bot_header">
     			<div id="recherche">
@@ -32,7 +33,8 @@
 					<form method="post" action="traitement.php">
     					<p>
 							<label for="ville_pays">Rechercher</label>
-    						<input type="search" name="barre_recherche" id="ville_pays" value="Marseille, France">
+							<input type="search" name="barre_recherche" id="ville_pays" value="Marseille, France">
+							<i class="fas fa-search"></i>
     					</p>
     				</form>
 				</div>
@@ -46,8 +48,11 @@
     					<li><a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></li>
     				</ul>
     			</nav>
-
-    			<p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+				
+				<div id="info">
+					<i class="fas fa-info"></i>
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+				</div>
     		</div>
     	</header>
 
@@ -196,51 +201,39 @@
 	    	<article>
 	    		<div id="Activite">
 					<h1>Activités à Marseille</h1>
-					<div id="bloc7">
+					<div id="gros_bloc">
 						<div id="bloc-left">
 							<div class="bloc3">
-								<div id="description_vieux_port">
-									<a href="#"><img src="Image/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""></a>
-									<h2>Vieux port</h2>
-								</div>
+								<a href="#"><img src="Image/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""></a>
+								<h2>Vieux port</h2>
 							</div>
 
-							<div class="bloc4">
+							<div class="petit_bloc">
 								<div class="bloc5">
-									<div id="description_fort">
-										<a href="#"><img src="Image/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""></a>
-										<h2>Fort de Pomègues</h2>
-									</div>
+									<a href="#"><img src="Image/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""></a>
+									<h2>Fort de Pomègues</h2>
 								</div>
 								<div class="bloc6">
-									<div id="description_iles">
-										<a href="#"><img src="Image/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""></a>
-										<h2>Îles du Frioul</h2>
-									</div>	
+									<a href="#"><img src="Image/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""></a>
+									<h2>Îles du Frioul</h2>
 								</div>
 							</div>
 						</div>
 						
 						<div id="bloc-right">
 							<div class="bloc3">
-								<div id="description_parc_frioul">
-									<a href="#"><img src="Image/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""></a>
-									<h2>Parc National des Calanques</h2>
-								</div>
+								<a href="#"><img src="Image/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""></a>
+								<h2>Parc National des Calanques</h2>
 							</div>
 
-							<div class="bloc4">
+							<div class="petit_bloc">
 								<div class="bloc7">
-									<div id="description_notre_dame">
-										<a href="#"><img src="Image/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></a>
-										<h2>Notre-Dame-de-la-Garde</h2>
-									</div>
+									<a href="#"><img src="Image/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></a>
+									<h2>Notre-Dame-de-la-Garde</h2>
 								</div>
 								<div class="bloc8">
-									<div id="description_parc_longchamp">
-										<a href="#"><img src="Image/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""></a>
-										<h2>Parc Longchamp</h2>
-									</div>
+									<a href="#"><img src="Image/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""></a>
+									<h2>Parc Longchamp</h2>
 								</div>
 							</div>
 						</div>
