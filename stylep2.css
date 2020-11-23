@@ -305,7 +305,7 @@ nav
 
 .hotel img
 {
-	width: auto;
+	width: 95%;
 	height: 100px;
 	border-radius: 11px 11px 0px 0px;
 	margin: 6px;
@@ -324,7 +324,7 @@ nav
 	margin-top: 0px;
 }
 
-#Hebergement a
+#afficher
 {
 	margin-left: 30px;
 }
@@ -874,11 +874,6 @@ aside h1
 		width: 98%;
 	}
 
-	.hotel2 img 
-	{
-		width: 30%;
-	}
-
 	#Hebergement
 	{
 		width: 98%;
@@ -1012,5 +1007,4 @@ aside h1
 	{
 		font-size: 1.3em;
 	}
-
  }
