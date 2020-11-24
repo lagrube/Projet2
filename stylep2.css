@@ -773,26 +773,30 @@ aside h1
 		right: 0px;
 	}
 
-	#top_header nav li a:hover
+	#top_header nav li 
 	{
-		border-top: none;
+		width: 100%;
+		margin-right: 0;
+		text-align: center;
+		border-bottom: 2px solid #F2F2F2;
+		padding-bottom: 2px;
+	}
+
+	#top_header nav li:hover
+	{
 		padding-bottom: 2px;
 		border-bottom: 2px solid #0065FC;
 	}
 
-	#top_header nav ul li a 
+	#top_header nav li a:hover
 	{
-		padding-right: 2em;
-		padding-left: 2em;
+		border-top: none;
 	}
 
 	#top_header nav ul 
 	{
 		width: 100%;
 		padding-left: 0px;
-		justify-content: space-around;
-		border-bottom: 2px solid #F2F2F2;
-		padding-bottom: 2px;
 	}
 
 	#top_header h1
