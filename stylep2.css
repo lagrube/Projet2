@@ -681,6 +681,10 @@ aside h1
 		margin-top: 0px;
 	}
 
+	.petit_bloc{
+		justify-content: space-between;
+	}
+
 	.bloc3 img
 	{
 		height: 86%;
@@ -699,7 +703,7 @@ aside h1
 	.bloc6
 	{
 		height: 47%;
-		margin-top: 10%;
+		margin-top: 0;
 	}
 
 	.bloc6 img 
@@ -710,7 +714,7 @@ aside h1
 	.bloc7
 	{
 		height: 47%;
-		margin-bottom: 10%;
+		margin-bottom: 0;
 	}
 
 	.bloc7 img 
