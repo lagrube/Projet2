@@ -16,17 +16,8 @@ Le sujet du projet 2 du parcours Développeur web chez Openclassrooms porte sur 
 
 ### 👀  &nbsp; Voir Le projet d'OpenClassrooms
 
-* [La mission](00_Projet_2_OCR/1_mission.pdf "Cliquez pour voir la mission du projet")
-* [Les cours](00_Projet_2_OCR/2_cours.pdf "Cliquez pour voir les cours")
-* [Les ressources](00_Projet_2_OCR/3_ressources.pdf "Cliquez pour voir le projet")
-* [l'évaluation de la soutenance](00_Projet_2_OCR/4_evaluation.pdf "Cliquez pour voir l'évaluation")
+* [La mission](https://openclassrooms.com/fr/paths/185/projects/639/assignment "Cliquez pour voir la mission du projet")
 
-  #### 🔖  &nbsp; Contexte du projet
-
-  * Votre CV n'est pas tout à fait à jour. Avant de rencontrer un client potentiel, vous décidez de créer votre propre site web, sur lequel vous publierez votre CV.
-  * Vous choisissez de développer votre site en HTML et CSS.
-  * Pour éviter de payer un serveur, vous décidez d’héberger votre site sur GitHub Pages. Vous créez donc immédiatement un compte pour tester ce service.
-  * Satisfait de la simplicité du processus, vous faites encore quelques recherches sur les critères d’un bon CV en ligne, et choisissez finalement de créer un modèle.
 
 #### 📈  &nbsp; Objectifs et Compétences évalué
 
@@ -47,6 +38,4 @@ Le sujet du projet 2 du parcours Développeur web chez Openclassrooms porte sur 
 | CSS3 (flexbox)  | Visual Studio Code |
 | Git/GitHub      |                    |
 
- &nbsp;  &nbsp;  &nbsp;  &nbsp; ![left 100%](documents/icon_p2.png?raw=true)
 
-***
