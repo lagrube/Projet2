@@ -14,9 +14,9 @@ _`Début de formation le 14/10/2020`_
 
 Le sujet du projet 2 du parcours Développeur web chez Openclassrooms porte sur la création d'un site accessible en toutes circonstances depuis n’importe quel appareil avec un affichage responsive, qui s’adapte à la fois aux ordinateurs et aux mobiles. Pour ne pas le rendre trop générique et faire en sorte qu’il soit representatif, lui ajouter un peu de personnalité en utilisant des couleurs ​Material Design​ et des icônes F​ont Awesome​.
 
-### 👀  &nbsp; Voir Le projet d'OpenClassrooms
+### 👀  &nbsp; Rendu du projet
 
-* [La mission](https://openclassrooms.com/fr/paths/185/projects/639/assignment "Cliquez pour voir la mission du projet")
+* [La mission](https://lagrube.github.io/Reservia-P2-HTML-CSS/ "Cliquez pour voir le rendu du projet")
 
 
 #### 📈  &nbsp; Objectifs et Compétences évalué
